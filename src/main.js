@@ -10,13 +10,14 @@ import {
 } from 'react-router-dom';
 
 import App from './components/App/App.jsx';
-import Layout from './components/Layout/Layout.jsx';
+import Homepage from 'pages/homepage';
+//import Layout from './components/Layout/Layout.jsx';
 
 const routes = (
     <HashRouter>
         <Switch>
             <App>
-                <Route path="/" exact component={Layout} />
+                <Route path="/" exact component={Homepage} />
             </App>
         </Switch>
     </HashRouter>

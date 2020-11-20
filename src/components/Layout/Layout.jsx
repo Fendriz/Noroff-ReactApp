@@ -1,18 +1,13 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
-class Layout extends React.Component {
-
-  static propTypes = {
-    className: PropTypes.string,
-  };
-
+export default class Layout extends React.Component {
   render() {
     return (
       <div className="[ container ]">
           <div className="[ row ]">
             <div className="[ col-sm-12 ]">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Test Application</a>
+              <nav class="[ header ]">
+                <img src="https://www.freeiconspng.com/uploads/rick-and-morty-beige-folder-icon-1.png" alt=""/>
               </nav>
             </div>
           </div>
@@ -26,4 +21,4 @@ class Layout extends React.Component {
   }
 }
 
-export default Layout;
+
