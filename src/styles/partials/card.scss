@@ -1,0 +1,24 @@
+.card{
+    border: solid 1px #FDE69A;
+    background-color: #FFF7B0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+
+    img{
+        width: 100%;
+    }
+    p{
+        color: #70a83d;
+    }
+    b{
+        color: #337AB6;
+    }
+}
+.card:hover {
+    transform: scale(1.08);
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+  }
+

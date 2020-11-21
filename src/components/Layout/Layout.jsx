@@ -7,7 +7,7 @@ export default class Layout extends React.Component {
           <div className="[ row ]">
             <div className="[ col-sm-12 ]">
               <nav class="[ header ]">
-                <img src="https://www.freeiconspng.com/uploads/rick-and-morty-beige-folder-icon-1.png" alt=""/>
+                <img src="https://www.freeiconspng.com/uploads/rick-and-morty-beige-folder-icon-1.png" alt="Rick and Morty" />
               </nav>
             </div>
           </div>
@@ -20,5 +20,3 @@ export default class Layout extends React.Component {
     );
   }
 }
-
-
